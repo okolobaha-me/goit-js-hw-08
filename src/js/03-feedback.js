@@ -17,7 +17,7 @@ if (localStorage.getItem(FEEDBACK)) {
   message.value = data.message;
 }
 
-const saveFormData = e => {
+const saveFormData = () => {
   feedbackData.email = email.value;
   feedbackData.message = message.value;
 
